@@ -1,0 +1,10 @@
+# Dependencias directas verificadas con Python 3.11 en Windows.
+google-adk==2.8.0
+litellm==1.100.0
+mcp==1.29.1
+httpx==0.28.1
+pydantic==2.13.5
+beautifulsoup4==4.15.0
+defusedxml==0.7.1
+pytest==9.1.1
+PyYAML==6.0.3

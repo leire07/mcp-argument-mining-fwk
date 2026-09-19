@@ -1,0 +1,4658 @@
+[
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:10735891:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:10735891:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:10735891:T10",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "10735891"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:10735891:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:10735891:T9",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:10735891:T10",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "10735891"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:10735891:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:10735891:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:10735891:T10",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "10735891"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:10735891:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:10735891:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:10735891:T10",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "10735891"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:10735891:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:10735891:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:10735891:T10",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "10735891"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:10735891:R6",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:10735891:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:10735891:T10",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R6",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "10735891"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:10811675:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:10811675:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:10811675:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "10811675"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:10811675:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:10811675:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:10811675:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "10811675"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:10811675:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:10811675:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:10811675:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "10811675"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11766999:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11766999:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11766999:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11766999"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11766999:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11766999:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11766999:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11766999"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11766999:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11766999:T7",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11766999:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11766999"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11766999:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11766999:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11766999:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11766999"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11786563:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11786563:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11786563:T1",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11786563"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11786563:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11786563:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11786563:T1",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11786563"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11788911:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11788911:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11788911:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11788911"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11788911:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11788911:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11788911:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11788911"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11788911:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11788911:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11788911:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11788911"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11788911:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11788911:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11788911:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11788911"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11790211:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11790211:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11790211:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11790211"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11790211:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11790211:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11790211:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11790211"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11821453:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11821453:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11821453:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11821453"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11821453:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11821453:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11821453:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11821453"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11821453:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11821453:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11821453:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11821453"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11821453:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11821453:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11821453:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11821453"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11821453:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11821453:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11821453:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11821453"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11821453:R6",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11821453:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11821453:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R6",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11821453"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11821453:R7",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11821453:T7",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11821453:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R7",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11821453"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11830607:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11830607:T9",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11830607:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11830607"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11830607:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11830607:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11830607:T10",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11830607"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11830607:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11830607:T11",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11830607:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11830607"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11830607:R6",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11830607:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11830607:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R6",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11830607"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11843249:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11843249:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11843249:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11843249"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11843249:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11843249:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11843249:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11843249"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11843249:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11843249:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11843249:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11843249"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11843249:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11843249:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11843249:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11843249"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11896110:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11896110:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11896110:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11896110"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11896110:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11896110:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11896110:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11896110"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11896110:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11896110:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11896110:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11896110"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:11896110:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:11896110:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:11896110:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "11896110"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:16476840:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:16476840:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:16476840:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "16476840"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:16476840:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:16476840:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:16476840:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "16476840"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:16476840:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:16476840:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:16476840:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "16476840"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:16476841:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:16476841:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:16476841:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "16476841"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:16476841:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:16476841:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:16476841:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "16476841"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:16476841:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:16476841:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:16476841:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "16476841"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:16476841:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:16476841:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:16476841:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "16476841"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:16483488:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:16483488:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:16483488:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "16483488"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:16483488:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:16483488:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:16483488:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "16483488"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:16483488:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:16483488:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:16483488:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "16483488"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:16483488:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:16483488:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:16483488:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "16483488"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:16487438:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:16487438:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:16487438:T11",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "16487438"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:16487438:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:16487438:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:16487438:T10",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "16487438"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:16487438:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:16487438:T9",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:16487438:T11",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "16487438"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:17664467:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:17664467:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:17664467:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "17664467"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:17664467:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:17664467:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:17664467:T3",
+    "relation": "attack",
+    "xaif_relation_type": "CA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Attack",
+    "label_mapping": {
+      "Attack": "attack",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "17664467"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:17664467:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:17664467:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:17664467:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "17664467"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:19704057:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:19704057:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:19704057:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "19704057"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:19704057:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:19704057:T7",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:19704057:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "19704057"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:19704057:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:19704057:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:19704057:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "19704057"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:19704057:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:19704057:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:19704057:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "19704057"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:19704057:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:19704057:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:19704057:T3",
+    "relation": "attack",
+    "xaif_relation_type": "CA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Attack",
+    "label_mapping": {
+      "Attack": "attack",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "19704057"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20006921:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20006921:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20006921:T4",
+    "relation": "attack",
+    "xaif_relation_type": "CA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Attack",
+    "label_mapping": {
+      "Attack": "attack",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20006921"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20006921:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20006921:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20006921:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20006921"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20006921:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20006921:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20006921:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20006921"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20009826:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20009826:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20009826:T3",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20009826"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20009826:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20009826:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20009826:T3",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20009826"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20026818:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20026818:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20026818:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20026818"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20026818:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20026818:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20026818:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20026818"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20026818:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20026818:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20026818:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20026818"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20026818:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20026818:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20026818:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20026818"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20227168:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20227168:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20227168:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20227168"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20227168:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20227168:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20227168:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20227168"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20227168:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20227168:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20227168:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20227168"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20227168:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20227168:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20227168:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20227168"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20339140:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20339140:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20339140:T3",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20339140"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20339140:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20339140:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20339140:T3",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20339140"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20351334:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20351334:T8",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20351334:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20351334"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20351334:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20351334:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20351334:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20351334"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20351334:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20351334:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20351334:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20351334"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20351334:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20351334:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20351334:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20351334"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20351334:R6",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20351334:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20351334:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R6",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20351334"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20351334:R7",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20351334:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20351334:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R7",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20351334"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20351334:R8",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20351334:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20351334:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R8",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20351334"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20362386:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20362386:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20362386:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20362386"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20362386:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20362386:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20362386:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20362386"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20362386:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20362386:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20362386:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20362386"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:20362386:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:20362386:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:20362386:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "20362386"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:21296449:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:21296449:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:21296449:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "21296449"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:21296449:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:21296449:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:21296449:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "21296449"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:21296449:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:21296449:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:21296449:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "21296449"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:21296449:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:21296449:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:21296449:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "21296449"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:21296449:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:21296449:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:21296449:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "21296449"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:21296449:R6",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:21296449:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:21296449:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R6",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "21296449"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:21296449:R7",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:21296449:T9",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:21296449:T7",
+    "relation": "attack",
+    "xaif_relation_type": "CA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R7",
+    "original_label": "Attack",
+    "label_mapping": {
+      "Attack": "attack",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "21296449"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:21366974:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:21366974:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:21366974:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "21366974"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:21366974:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:21366974:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:21366974:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "21366974"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:21366974:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:21366974:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:21366974:T1",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "21366974"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:21366974:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:21366974:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:21366974:T6",
+    "relation": "attack",
+    "xaif_relation_type": "CA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Attack",
+    "label_mapping": {
+      "Attack": "attack",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "21366974"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22011650:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22011650:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22011650:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22011650"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22011650:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22011650:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22011650:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22011650"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22011650:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22011650:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22011650:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22011650"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22097195:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22097195:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22097195:T3",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22097195"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22097195:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22097195:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22097195:T3",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22097195"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22097195:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22097195:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22097195:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22097195"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22842422:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22842422:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22842422:T3",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22842422"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22857983:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22857983:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22857983:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22857983"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22857983:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22857983:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22857983:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22857983"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22857983:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22857983:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22857983:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22857983"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22857983:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22857983:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22857983:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22857983"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22857983:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22857983:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22857983:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22857983"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22868247:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22868247:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22868247:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22868247"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22868247:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22868247:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22868247:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22868247"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22868247:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22868247:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22868247:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22868247"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22877848:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22877848:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22877848:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22877848"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22877848:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22877848:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22877848:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22877848"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22877848:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22877848:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22877848:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22877848"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22877848:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22877848:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22877848:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22877848"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22877848:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22877848:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22877848:T10",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22877848"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22877848:R6",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22877848:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22877848:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R6",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22877848"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22877848:R7",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22877848:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22877848:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R7",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22877848"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22945882:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22945882:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22945882:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22945882"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22945882:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22945882:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22945882:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22945882"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22945882:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22945882:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22945882:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22945882"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:22945882:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:22945882:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:22945882:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "22945882"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23017512:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23017512:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23017512:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23017512"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23017512:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23017512:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23017512:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23017512"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23017512:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23017512:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23017512:T5",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23017512"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23294853:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23294853:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23294853:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23294853"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23294853:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23294853:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23294853:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23294853"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23294853:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23294853:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23294853:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23294853"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23333117:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23333117:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23333117:T3",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23333117"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23333117:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23333117:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23333117:T3",
+    "relation": "attack",
+    "xaif_relation_type": "CA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Attack",
+    "label_mapping": {
+      "Attack": "attack",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23333117"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23352440:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23352440:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23352440:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23352440"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23352440:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23352440:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23352440:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23352440"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23352440:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23352440:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23352440:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23352440"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23404211:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23404211:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23404211:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23404211"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23404211:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23404211:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23404211:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23404211"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23404211:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23404211:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23404211:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23404211"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23404211:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23404211:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23404211:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23404211"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23404211:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23404211:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23404211:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23404211"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23545101:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23545101:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23545101:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23545101"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23545101:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23545101:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23545101:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23545101"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23545101:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23545101:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23545101:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23545101"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23545101:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23545101:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23545101:T6",
+    "relation": "attack",
+    "xaif_relation_type": "CA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Attack",
+    "label_mapping": {
+      "Attack": "attack",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23545101"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23657969:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23657969:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23657969:T1",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23657969"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23686277:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23686277:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23686277:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23686277"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23686277:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23686277:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23686277:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23686277"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23690410:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23690410:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23690410:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23690410"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23690410:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23690410:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23690410:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23690410"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23696477:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23696477:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23696477:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23696477"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23696477:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23696477:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23696477:T6",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23696477"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:23696477:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:23696477:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:23696477:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "23696477"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24045440:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24045440:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24045440:T2",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24045440"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24045440:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24045440:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24045440:T1",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24045440"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24045440:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24045440:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24045440:T1",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24045440"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24045440:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24045440:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24045440:T2",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24045440"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24045440:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24045440:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24045440:T2",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24045440"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24084921:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24084921:T10",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24084921:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24084921"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24084921:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24084921:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24084921:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24084921"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24084921:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24084921:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24084921:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24084921"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24084921:R6",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24084921:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24084921:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R6",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24084921"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24084921:R7",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24084921:T7",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24084921:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R7",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24084921"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24092240:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24092240:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24092240:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24092240"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24092240:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24092240:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24092240:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24092240"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24092240:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24092240:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24092240:T4",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24092240"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24123482:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24123482:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24123482:T2",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24123482"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24123482:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24123482:T8",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24123482:T3",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24123482"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24123482:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24123482:T7",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24123482:T2",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24123482"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24123482:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24123482:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24123482:T3",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24123482"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24123482:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24123482:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24123482:T3",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24123482"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:24123482:R6",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:24123482:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:24123482:T3",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R6",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "24123482"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9093725:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9093725:T7",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9093725:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9093725"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9093725:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9093725:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9093725:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9093725"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9093725:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9093725:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9093725:T4",
+    "relation": "attack",
+    "xaif_relation_type": "CA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Attack",
+    "label_mapping": {
+      "Attack": "attack",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9093725"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9093725:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9093725:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9093725:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9093725"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9093725:R6",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9093725:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9093725:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R6",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9093725"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9093725:R7",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9093725:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9093725:T2",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R7",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9093725"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9106647:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9106647:T8",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9106647:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9106647"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9106647:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9106647:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9106647:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9106647"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9106647:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9106647:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9106647:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9106647"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9106647:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9106647:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9106647:T2",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9106647"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9137798:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9137798:T8",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9137798:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9137798"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9137798:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9137798:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9137798:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9137798"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9137798:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9137798:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9137798:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9137798"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9137798:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9137798:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9137798:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9137798"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9137798:R6",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9137798:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9137798:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R6",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9137798"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9137798:R7",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9137798:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9137798:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R7",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9137798"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9137798:R8",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9137798:T1",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9137798:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R8",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9137798"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9143576:R1",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9143576:T2",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9143576:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R1",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9143576"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9143576:R3",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9143576:T3",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9143576:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R3",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9143576"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9143576:R4",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9143576:T5",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9143576:T9",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R4",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9143576"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9143576:R5",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9143576:T6",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9143576:T8",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R5",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9143576"
+    },
+    "generated_by": null,
+    "confidence": null
+  },
+  {
+    "relation_id": "abstrct:dev:neoplasm_dev:9143576:R2",
+    "source_claim_id": "abstrct:dev:neoplasm_dev:9143576:T4",
+    "target_claim_id": "abstrct:dev:neoplasm_dev:9143576:T7",
+    "relation": "support",
+    "xaif_relation_type": "RA",
+    "input_kind": "gold",
+    "endpoint_kind": "argument_unit",
+    "original_id": "R2",
+    "original_label": "Support",
+    "label_mapping": {
+      "Support": "support",
+      "justification": "AbstRCT label semantics"
+    },
+    "dataset_metadata": {
+      "dataset_name": "AbstRCT",
+      "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+      "dataset_split": "dev",
+      "dataset_subset": "neoplasm_dev",
+      "original_document_id": "9143576"
+    },
+    "generated_by": null,
+    "confidence": null
+  }
+]

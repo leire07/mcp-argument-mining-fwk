@@ -1,0 +1,28 @@
+# Smoke test de los servicios públicos operativos; no es una configuración
+# seleccionada para los experimentos finales del paper.
+experiment_id: smoke_dsg_spg_arir_not_a_selected_pipeline
+dataset_version: casimedicos_retrieval_v1
+gold_version: null
+random_seed: 42
+segmentation:
+  module: DSG
+  endpoint: null
+  version: null
+  model: null
+  config: {}
+propositionalisation:
+  module: SPG
+  endpoint: null
+  version: null
+  model: null
+  config: {}
+relation_identification:
+  module: ARIR
+  endpoint: null
+  version: null
+  model: null
+  config: {}
+pair_generation:
+  strategy: within_passage
+  thresholds: {}
+  version: "1"

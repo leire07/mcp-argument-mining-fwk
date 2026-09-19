@@ -1,0 +1,38 @@
+# Selección secuencial por etapas. Este archivo no describe combinaciones
+# cartesianas de pipelines y benchmark-check no ejecuta ningún servicio.
+benchmark_id: casimedicos_402_183_oamf_v1
+dataset_version: casimedicos_retrieval_20260909
+gold_version: casimedicos_402_183_argument_gold_v1
+evidence: outputs/402_183/evidence.json
+registry: configs/oamf_public_modules.yaml
+
+stages:
+  segmentation:
+    candidates: [DSG, TARGER, DSS]
+    gold: annotations/402_183/gold_spans.json
+    selection:
+      primary_metric: exact_span.f1
+      tie_breakers: [overlap_span.f1]
+      higher_is_better: true
+      manual_review_required: false
+
+  propositionalisation:
+    candidates: [SPG, CPJ]
+    input: annotations/402_183/gold_spans.json
+    gold: annotations/402_183/gold_claims.json
+    selection:
+      primary_metric: exact_proposition.f1
+      tie_breakers: [traceability_completeness]
+      higher_is_better: true
+      manual_review_required: true
+
+  relation_identification:
+    candidates: [DAMG, SARIM, ARIR, DRIG, TARGER-AM, DSRM, DTERG]
+    input: annotations/402_183/gold_claims.json
+    gold: annotations/402_183/gold_relations.json
+    pair_strategy: within_passage
+    selection:
+      primary_metric: macro_f1
+      tie_breakers: [per_class.support.f1, per_class.attack.f1]
+      higher_is_better: true
+      manual_review_required: false

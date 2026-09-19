@@ -1,0 +1,602 @@
+[
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\10735891.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\10735891.txt",
+    "sha256": "7bd427c96ea68ef48308186559902c11adcffe00dcce392bcdacae7458ee15c6"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\10735891.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\10735891.ann",
+    "sha256": "ad1f25ebd615bb4d7879765149ab69ba749d7e177fc314183de8cfc8751f176c"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\10811675.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\10811675.txt",
+    "sha256": "cd3f9b467670f4b4b4d75146d26bb80618fd7455a94ef41425650d52ec4101e3"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\10811675.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\10811675.ann",
+    "sha256": "9f54eaea00191cd16f04c7efcfbdffab0fd5a006b3a692e7046663aee256afa5"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11766999.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11766999.txt",
+    "sha256": "6ebbc91781a6b523b107e7a148b8ad39176f3f07c030f16dac409c94d3214a74"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11766999.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11766999.ann",
+    "sha256": "ad0834a4f40b5f02a0d694ad5ff38f35a3a6e5e08a2c64f4fae766c6cd14087a"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11786563.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11786563.txt",
+    "sha256": "9b30c2ed0b457dd0532ac5bb0131a24720d79ff85b03999d5faec301161978b5"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11786563.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11786563.ann",
+    "sha256": "ff609581e995642caf71fae630d5c3016022a22a25ed430b4c5533628b99749d"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11788911.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11788911.txt",
+    "sha256": "77e45cdf44801d98dc6a72f2c15acc161a66c823a2d19199e9092dbe971209b0"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11788911.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11788911.ann",
+    "sha256": "0303b8327be7a16e8bd970b47edea0c95f5348380541bd6bb446c7284e5dac0d"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11790211.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11790211.txt",
+    "sha256": "448aa1ca2ad63fbf7193ec3a69c964dca06f16ef6b85e2dd4d14b4b349ebcb70"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11790211.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11790211.ann",
+    "sha256": "73db2d221265e9be4d944a491bf1326d59bd825bad503effc7cc249a67c37342"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11821453.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11821453.txt",
+    "sha256": "1576788dc14d709d23dad9d2abfac49bcf28f2c15eeffc9fa2ecb2e0b8656620"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11821453.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11821453.ann",
+    "sha256": "1aea58d6b01bb056ed9c40c1610649a84a6844c5353381277b9b12c98787e234"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11830607.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11830607.txt",
+    "sha256": "b4dc5182b8f338d79f95f2ec11bb003a12a494cfef0104b0da143fd2008ac27e"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11830607.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11830607.ann",
+    "sha256": "381e9a26fc06ebac5bc65deef7ac2c69f09547d5afb4f5102fe7659efcb01fc6"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11843249.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11843249.txt",
+    "sha256": "086e0bb3261fb92ee74b514c43f8df6deed001ff7ba88af5449a0700c68f06ef"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11843249.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11843249.ann",
+    "sha256": "a8a45be78b65ec6c6c02c98f509ee3c62375ef912bffb7a0041969c7c2ff1f4b"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11896110.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11896110.txt",
+    "sha256": "0e09246298c320c45e4800f88f1a2bf7852ca29b0e53d71420fcd16b864a9558"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\11896110.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\11896110.ann",
+    "sha256": "cec6e7f9d629b4aec5ba6dca1e054281734ce048c58f158ecbb5a59964ed420e"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\16476840.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\16476840.txt",
+    "sha256": "937bc52f19c382501a723cdb507e59a501c6596d009159545d70dcdbdd6862a2"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\16476840.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\16476840.ann",
+    "sha256": "4653c8927811f0be9f40cd99051150c349026a7d876975a4ba7fa05d72e3e985"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\16476841.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\16476841.txt",
+    "sha256": "645a8f12fb74a289b2ff4a15ea38326aa3483c741836e1d5c2f72e6561186005"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\16476841.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\16476841.ann",
+    "sha256": "17d423df4e4eb8c7ed1c560b25670f18257d0adb6e514ac78bef6c28a19f2856"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\16483488.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\16483488.txt",
+    "sha256": "aec13c972d60a238f69c99bde202fc9bc9e5e531ad063b1472b0d3bada1f88e6"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\16483488.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\16483488.ann",
+    "sha256": "2fcbe6db514c1bf8cd07a519a1fe008770a7550af78d70fd9dbe56ecaba1c67f"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\16487438.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\16487438.txt",
+    "sha256": "a06c03086a0787ae1659cfff8abde7bc49bae6a595164b95b667d8daabb09999"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\16487438.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\16487438.ann",
+    "sha256": "eeaf8c20a73f52fca8683b25bfc91ab52f0b3ac064c2df4cb9e843a3d01447bc"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\17664467.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\17664467.txt",
+    "sha256": "151b749018a48e0784bdfddd3ab4881f3429cfc2a9791d1134e5f723633ede1a"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\17664467.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\17664467.ann",
+    "sha256": "6f50adfa43569ce0f9a051713fdf094d6de144b10339164de2f4d31fecf041c6"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\19704057.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\19704057.txt",
+    "sha256": "34c11217ef2d410f8f47a7f7936cfda84c83d64d97e6f557240eef42d35f2c3a"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\19704057.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\19704057.ann",
+    "sha256": "2bfeed7c3d4bf03d5b9a07cbd3d7050a4dd2600c6954af074238496fa3782a27"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\20006921.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\20006921.txt",
+    "sha256": "f8909eae127b8949f515210c450adc9da145b57c401b7b42c831afc2fef72c52"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\20006921.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\20006921.ann",
+    "sha256": "5d32dbb449e14e8912ce27c7c51c4455ce1fe210ee7be293d69037e720d04f10"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\20009826.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\20009826.txt",
+    "sha256": "ad7720f522baa847a6469f7f10a90577e485fdbe81c32a1e986e8cbc5141c4fd"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\20009826.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\20009826.ann",
+    "sha256": "a885a7bc714b2ac026874387053609658afee29364df1ff9f679b10b59fd7065"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\20026818.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\20026818.txt",
+    "sha256": "c6b7cb7093369ba6d9c3ab6f2663879a72ec12a05c7069d71fef99a5d562e473"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\20026818.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\20026818.ann",
+    "sha256": "6ece17badd0575b8ffa93f66973cff62580b41b345098fdb09bd8c89602cecf1"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\20227168.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\20227168.txt",
+    "sha256": "565b18b6e7726f7c80908dfe02229921851b3711a684c3a61be916c25fede2c8"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\20227168.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\20227168.ann",
+    "sha256": "8bcea57fab0a90252ae04dca17048aeb27b04f27342ae4e73769d48954ecd1d2"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\20339140.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\20339140.txt",
+    "sha256": "f13f2fd249b99f5c53abb9012ae4c44dc00cef9e399f168d74c3c2548ccd1615"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\20339140.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\20339140.ann",
+    "sha256": "50a53e27f3742601c8b271dc017c21da3ca7a8135f0b5108993b94860bca66ff"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\20351334.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\20351334.txt",
+    "sha256": "d4559a7bbfa42ecd7747dcd2dc2ba7117ef87b9250d64f9b0cc4aaeebf0240f3"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\20351334.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\20351334.ann",
+    "sha256": "7e92f0c535c586a71a3a92bdfcb40e9721b1e40de625c6258537092a09924877"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\20362386.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\20362386.txt",
+    "sha256": "1db17adf3e97fafa97f2a822fb0ee72b007fbdf749919612f75affd2bd1bbd36"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\20362386.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\20362386.ann",
+    "sha256": "1d69a2641717f1f319e4f15f5807544f35f01b96b68812bcc6915fb6e8d7bb4e"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\21296449.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\21296449.txt",
+    "sha256": "e42c3f208b0c110c3f460f6ae4882933ec1601e59c8a5b7a94b954fbf122f14b"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\21296449.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\21296449.ann",
+    "sha256": "6cd0ae4f5dce9f8b94219e34e2155500461828b888558a4fc86bd040a0088619"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\21366974.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\21366974.txt",
+    "sha256": "c452373cfbaf2a927ccbcb741ddae1c96d2a2a69a63ace592b662c81a12248ca"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\21366974.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\21366974.ann",
+    "sha256": "f25e20aefd5a67910c4db1028bf379493cf32b8fb706cb2301de9521a2349edc"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\22011650.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\22011650.txt",
+    "sha256": "49ed6bfb01b4d07f10b45ebba72bbfde21c9b95c2604419e1ab302d718f483ea"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\22011650.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\22011650.ann",
+    "sha256": "ef1a3c7ee1ab979317d9dde39bb898b922c62e46ca500c3cedef341929be4b8a"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\22097195.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\22097195.txt",
+    "sha256": "3cd99d8138976d59f5f6298207f1672140514e6c5e6f9f204f3a69af73f48380"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\22097195.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\22097195.ann",
+    "sha256": "463777e370046ce6da525e806c8781f0d942e15aea5b27745b35a64e8c9e844e"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\22842422.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\22842422.txt",
+    "sha256": "a60403dfd4e84f2ed74bdf061c8f7829cf8ae32c9a861c151c880845b9081b2b"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\22842422.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\22842422.ann",
+    "sha256": "5a26fde4363ecc5961b2b33baafc5df303890b735c2490287070df3c2ba54b40"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\22857983.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\22857983.txt",
+    "sha256": "477a9dc0d472c0fab3c1871eb8fc48469129bd0aa25a2723f808ea30d5848eab"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\22857983.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\22857983.ann",
+    "sha256": "5c54690bca72cd9a01fbc40707b0bba880389d410a55bd5c10c59ac0fced8988"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\22868247.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\22868247.txt",
+    "sha256": "199fc65e374d6433ff6d65cb5dbbe968a867a2aff1b3ff97124a99154d48ba81"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\22868247.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\22868247.ann",
+    "sha256": "f33ba4715d1dca9fe709caa6206aa682542e6cce7f33e92f24fb5ed3e3ae724c"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\22877848.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\22877848.txt",
+    "sha256": "e991adeb979e83afc09e0b0fb7b7bfb182aa644b2fc29bd664f5a832be19cf52"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\22877848.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\22877848.ann",
+    "sha256": "df616cbf9c53cd022dbcc0bdcd851c066f0b54c0a01f425ed81d034ad245991e"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\22945882.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\22945882.txt",
+    "sha256": "1e369cf544cfa9dbc542c58095f654595fea0fd6af256057fd777a72c02b5146"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\22945882.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\22945882.ann",
+    "sha256": "19f09480a9695f9ce325b5103a9b1a5bb7aeea8273ff5356d2598befa8a0f71e"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23017512.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23017512.txt",
+    "sha256": "18591d5557757517601edd697f9c7f905d29a68a19bb0e33fc88e8b0b39812e3"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23017512.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23017512.ann",
+    "sha256": "c74ab2050dec60869f49a9ab24e8fb5b63d22c7c0e3b863804598f9444abc4b2"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23294853.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23294853.txt",
+    "sha256": "d694be27d0d4e5c6fd4c00c1e46679542335899b2922fdf5fa6cf4b3d2b64ac3"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23294853.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23294853.ann",
+    "sha256": "8dabcfa8941c883b57dbc785b955062b731dac4ea2a425659c46b38ec9a62bad"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23333117.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23333117.txt",
+    "sha256": "205e1d9c250e775e57d385fbe9545bab97921439cd4c73c25c88f35934fd2162"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23333117.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23333117.ann",
+    "sha256": "b49d7fe88c696bdb32b990cf1c1d3251fccffa11f55fbba924f550e95e533e9c"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23352440.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23352440.txt",
+    "sha256": "517fb50fd3cee3ce4ddaca03aecdd4b113aa8dedaecd14f20b2052149b4274e6"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23352440.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23352440.ann",
+    "sha256": "208f7d0844c411cc953c952bab65d423adf295de5669cfba459a76138d5b0a47"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23404211.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23404211.txt",
+    "sha256": "81f0d0b0bb770eeaa11329908bca743dd8f69ddc58e532055631c8343d1474e0"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23404211.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23404211.ann",
+    "sha256": "62b2d43b1bac95086de246d57193e40608f3e93adf6489a75f776d4d0e06f76a"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23545101.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23545101.txt",
+    "sha256": "2b4f6535da9bbd5cfb5a9301fe6e06baab7b9ab39aa83fa55422b3c0dc3bc5e9"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23545101.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23545101.ann",
+    "sha256": "497875b386e5bda86987a3e5c1591361fc6a3a8fee54d382da394a37c467479b"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23657969.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23657969.txt",
+    "sha256": "1e0577d313cab64ae56affe81f61c8f160bee8a6c1d8c6926c39de09335956b3"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23657969.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23657969.ann",
+    "sha256": "20d72625c4b9357c6379292d48dec0bcfae96f6c453464ff7d729eb49a895f04"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23686277.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23686277.txt",
+    "sha256": "203d372f78b8a0c8c15f2cc1f9cf4878575465b9964d2234f0f736cd90db292c"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23686277.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23686277.ann",
+    "sha256": "aea520b0d45448e5012fcfa4bcc977964024af4356966936a05dfc30af850408"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23690410.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23690410.txt",
+    "sha256": "bad2c5546f402753f8091aed4088ade0b4d38d3f84883d692b06cfbca94006b1"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23690410.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23690410.ann",
+    "sha256": "f119ec52739bf63dc4b4e7096457e54edcfea9762ec279946d184f0de3c9fafb"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23696477.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23696477.txt",
+    "sha256": "e4af200765b192044cbbbbb0ccdfbb64d4274cb8c5a939b51fa55ed4e803b5e9"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\23696477.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\23696477.ann",
+    "sha256": "abdf52ae19d579cd48e115f322fb367b8014ca5ba7ced45f2c2c2db2d8f4afd1"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\24045440.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\24045440.txt",
+    "sha256": "2fe76f31c01a94f16246c0e0d13b1be41d82ad729d817cac55ce96ddb76ce978"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\24045440.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\24045440.ann",
+    "sha256": "69ea00ccff3ad9106458d41a413054251a9c57fe3c6a55e4d4b31f263bfcf46e"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\24084921.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\24084921.txt",
+    "sha256": "967e37af8b399a557bf568dd4b3d44170a3a15032e3a6d639fd72f9ffe90021c"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\24084921.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\24084921.ann",
+    "sha256": "fbd1a188437d2b6d1822d87820f6833629ee5caeb328abc1edbba628e1f713fd"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\24092240.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\24092240.txt",
+    "sha256": "8850b01304d399f7141e4fbef9ef39c6cf5e6f0438727e792e56a7fb80caafb3"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\24092240.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\24092240.ann",
+    "sha256": "e9ed2ba2881dc658efe78dc8cc7b3e16762390766da323af7e7a0044a00892d5"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\24123482.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\24123482.txt",
+    "sha256": "71217afbaf2ac276ff360e485746fbcf1957621618dcaafd4376e639dfe6df87"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\24123482.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\24123482.ann",
+    "sha256": "ac4ad2fb2f8b2f755a0ee1602b315b7da73afd791990f028b645f5d925ca6e1f"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\9093725.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\9093725.txt",
+    "sha256": "cfc5a5a3cb529975e3381b75da40c03e40ad096bb7181449e939892093ab1000"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\9093725.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\9093725.ann",
+    "sha256": "1d9d0af7dea9f29506cef48e953ad5cbfc19b036616d2009e257fce2ed16eace"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\9106647.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\9106647.txt",
+    "sha256": "c49f6094e39bc50e0a8c5935c0e92f68dd18fc9ee4c96f150db2c61affef5c8c"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\9106647.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\9106647.ann",
+    "sha256": "ff4b90857005bc530609348e71643c46483e7ab0ae4cccc840524c6e5a3c2491"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\9137798.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\9137798.txt",
+    "sha256": "71beaec294d6090fb4eeefb97e6096deabf4d8a18c21fddbac50f7ab8e5476cb"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\9137798.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\9137798.ann",
+    "sha256": "aa8e37b5d630d2ff03e4d1d89458ded734ab1ad71c3404ff80331ca5ee3f533c"
+  },
+  {
+    "kind": "text",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\9143576.txt",
+    "copied_to": "raw\\dev\\neoplasm_dev\\9143576.txt",
+    "sha256": "135bae11628a707331df53f497169e2e8af06c0d8981d45158de936dec934f19"
+  },
+  {
+    "kind": "annotation",
+    "source": "data\\external\\abstrct\\AbstRCT_corpus\\data\\dev\\neoplasm_dev\\9143576.ann",
+    "copied_to": "raw\\dev\\neoplasm_dev\\9143576.ann",
+    "sha256": "eadb8febbe21ad3c56ca5b19b0f24fd3038804afd32be60ff9fe832f67cab4c0"
+  }
+]

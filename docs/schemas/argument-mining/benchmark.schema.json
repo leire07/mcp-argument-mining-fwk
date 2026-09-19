@@ -1,0 +1,135 @@
+{
+  "$defs": {
+    "SelectionRule": {
+      "additionalProperties": false,
+      "properties": {
+        "primary_metric": {
+          "title": "Primary Metric",
+          "type": "string"
+        },
+        "tie_breakers": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Tie Breakers",
+          "type": "array"
+        },
+        "higher_is_better": {
+          "default": true,
+          "title": "Higher Is Better",
+          "type": "boolean"
+        },
+        "manual_review_required": {
+          "default": false,
+          "title": "Manual Review Required",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "primary_metric"
+      ],
+      "title": "SelectionRule",
+      "type": "object"
+    },
+    "StageBenchmark": {
+      "additionalProperties": false,
+      "properties": {
+        "candidates": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Candidates",
+          "type": "array"
+        },
+        "input": {
+          "anyOf": [
+            {
+              "format": "path",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Input"
+        },
+        "gold": {
+          "format": "path",
+          "title": "Gold",
+          "type": "string"
+        },
+        "pair_strategy": {
+          "default": "within_passage",
+          "enum": [
+            "within_passage",
+            "within_document",
+            "all"
+          ],
+          "title": "Pair Strategy",
+          "type": "string"
+        },
+        "selection": {
+          "$ref": "#/$defs/SelectionRule"
+        }
+      },
+      "required": [
+        "candidates",
+        "gold",
+        "selection"
+      ],
+      "title": "StageBenchmark",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "benchmark_id": {
+      "title": "Benchmark Id",
+      "type": "string"
+    },
+    "dataset_version": {
+      "title": "Dataset Version",
+      "type": "string"
+    },
+    "gold_version": {
+      "title": "Gold Version",
+      "type": "string"
+    },
+    "evidence": {
+      "format": "path",
+      "title": "Evidence",
+      "type": "string"
+    },
+    "registry": {
+      "format": "path",
+      "title": "Registry",
+      "type": "string"
+    },
+    "stages": {
+      "additionalProperties": {
+        "$ref": "#/$defs/StageBenchmark"
+      },
+      "propertyNames": {
+        "enum": [
+          "segmentation",
+          "propositionalisation",
+          "relation_identification"
+        ]
+      },
+      "title": "Stages",
+      "type": "object"
+    }
+  },
+  "required": [
+    "benchmark_id",
+    "dataset_version",
+    "gold_version",
+    "evidence",
+    "registry",
+    "stages"
+  ],
+  "title": "StagewiseBenchmarkConfig",
+  "type": "object"
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "AbstRCT",
+  "repository": "https://gitlab.com/tomaye/abstrct",
+  "repository_commit": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+  "license": "CC BY-NC-SA 4.0",
+  "component_mapping": {
+    "Premise": "argument_unit.component_type=premise",
+    "Claim": "argument_unit.component_type=claim",
+    "MajorClaim": "argument_unit.component_type=major_claim"
+  },
+  "relation_mapping": {
+    "Support": "support/RA",
+    "Attack": "attack/CA"
+  },
+  "unmapped_labels": {
+    "Partial-Attack": "excluded_from_binary_support_attack_task"
+  },
+  "normalised_gold_claims_created": false,
+  "note": "argument_units are extractive benchmark endpoints, not gold normalised propositions"
+}

@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2300" height="3280" viewBox="0 0 2300 3280" role="img" aria-labelledby="title description">
+<title id="title">FWK-MAS: recuperación clínica y construcción trazable de argumentos</title>
+<desc id="description">Caso, agentes de recuperación, MCP, evidencia, etapas oAMF intercambiables, relaciones y exportación xAIF con procedencia.</desc>
+<rect width="100%" height="100%" fill="#f6f8fb"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1 1 L8 5 L1 9" fill="none" stroke="context-stroke" stroke-width="2"/></marker></defs>
+<text x="60" y="89.0" font-family="Arial, Helvetica, sans-serif" font-size="44" fill="#243247" text-anchor="start">FWK-MAS  /  Evidencia clínica y argumentos trazables</text>
+<text x="60" y="134.0" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#64748b" text-anchor="start">Google ADK + MCP + PoliGPT · Flujo implementado · Documentación: septiembre de 2026</text>
+<rect x="40" y="185" width="1400" height="2920" rx="16" fill="#ffffff" stroke="#d7dee8" stroke-width="2"/>
+<rect x="1480" y="185" width="780" height="2920" rx="16" fill="#fafbfc" stroke="#d7dee8" stroke-width="2"/>
+<text x="85" y="243.0" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#3264a5" text-anchor="start">01  RECORRIDO GENERAL</text>
+<text x="1520" y="243.0" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#7151a1" text-anchor="start">02  EJECUCIÓN Y TRAZABILIDAD</text>
+<rect x="380" y="280" width="650" height="110" rx="16" fill="#e7f0ff" stroke="#3264a5" stroke-width="2"/>
+<text x="705.0" y="314.875" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">CASO CLÍNICO + PREGUNTA</text>
+<text x="705.0" y="343.625" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">options opcionales · entrada JSON</text>
+<text x="705.0" y="372.375" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">El ejemplo es sintético, no un paciente real</text>
+<rect x="380" y="445" width="650" height="125" rx="16" fill="#e7f0ff" stroke="#3264a5" stroke-width="2"/>
+<text x="705.0" y="486.5" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#243247" text-anchor="middle">CLI + RUNNER DE GOOGLE ADK</text>
+<text x="705.0" y="516.5" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#243247" text-anchor="middle">Validar ClinicalCase · cargar configuración</text>
+<text x="705.0" y="546.5" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#243247" text-anchor="middle">Crear sesión y carpeta de ejecución</text>
+<rect x="380" y="625" width="650" height="125" rx="16" fill="#eee8fb" stroke="#7151a1" stroke-width="2"/>
+<text x="705.0" y="666.5" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#243247" text-anchor="middle">COORDINATOR AGENT</text>
+<text x="705.0" y="696.5" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#243247" text-anchor="middle">Identificar aspectos y generar RetrievalPlan</text>
+<text x="705.0" y="726.5" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#243247" text-anchor="middle">Validar tareas y guardar plan.json</text>
+<text x="85" y="272.0" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#7151a1" text-anchor="start">Uno o ambos especialistas · ejecución SECUENCIAL en el orden del plan</text>
+<rect x="160" y="865" width="510" height="125" rx="16" fill="#eee8fb" stroke="#7151a1" stroke-width="2"/>
+<text x="415.0" y="908.25" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">GUIDELINE AGENT</text>
+<text x="415.0" y="935.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Guías y recomendaciones indexadas</text>
+<text x="415.0" y="963.25" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Formular consultas y valorar fragmentos</text>
+<rect x="800" y="865" width="510" height="125" rx="16" fill="#eee8fb" stroke="#7151a1" stroke-width="2"/>
+<text x="1055.0" y="908.25" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">LITERATURE AGENT</text>
+<text x="1055.0" y="935.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Estudios y revisiones</text>
+<text x="1055.0" y="963.25" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Formular consultas y valorar fragmentos</text>
+<rect x="160" y="1055" width="510" height="95" rx="16" fill="#e0f4f2" stroke="#247f7a" stroke-width="2"/>
+<text x="415.0" y="1096.75" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">CLIENTE MCP / McpToolset</text>
+<text x="415.0" y="1125.5" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">Herramientas filtradas para guías</text>
+<rect x="800" y="1055" width="510" height="95" rx="16" fill="#e0f4f2" stroke="#247f7a" stroke-width="2"/>
+<text x="1055.0" y="1096.75" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">CLIENTE MCP / McpToolset</text>
+<text x="1055.0" y="1125.5" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">Herramientas filtradas para literatura</text>
+<rect x="160" y="1215" width="510" height="125" rx="16" fill="#e0f4f2" stroke="#247f7a" stroke-width="2"/>
+<text x="415.0" y="1257.375" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">SERVIDOR MCP · SUBPROCESO A</text>
+<text x="415.0" y="1286.125" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">search_guidelines</text>
+<text x="415.0" y="1314.875" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">fetch_full_text</text>
+<rect x="800" y="1215" width="510" height="125" rx="16" fill="#e0f4f2" stroke="#247f7a" stroke-width="2"/>
+<text x="1055.0" y="1257.375" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">SERVIDOR MCP · SUBPROCESO B</text>
+<text x="1055.0" y="1286.125" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">search_literature</text>
+<text x="1055.0" y="1314.875" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">fetch_full_text</text>
+<text x="740.0" y="1184.0" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#247f7a" text-anchor="middle">stdio</text>
+<rect x="160" y="1415" width="510" height="110" rx="16" fill="#eaf3df" stroke="#668243" stroke-width="2"/>
+<text x="415.0" y="1450.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">PUBMED O EUROPE PMC</text>
+<text x="415.0" y="1478.25" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Filtrar Guideline / Practice Guideline</text>
+<text x="415.0" y="1505.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">HTTP → JSON / XML</text>
+<rect x="800" y="1415" width="510" height="110" rx="16" fill="#eaf3df" stroke="#668243" stroke-width="2"/>
+<text x="1055.0" y="1450.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">EUROPE PMC O PUBMED</text>
+<text x="1055.0" y="1478.25" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Búsqueda de literatura científica</text>
+<text x="1055.0" y="1505.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">HTTP → JSON / XML</text>
+<rect x="380" y="1615" width="650" height="125" rx="16" fill="#fff0d9" stroke="#b67b28" stroke-width="2"/>
+<text x="705.0" y="1656.5" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#243247" text-anchor="middle">EXTRACCIÓN EN EL SERVIDOR</text>
+<text x="705.0" y="1686.5" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#243247" text-anchor="middle">Guardar raw/ · separar texto y metadatos</text>
+<text x="705.0" y="1716.5" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#243247" text-anchor="middle">Passage[]: abstract o full_text</text>
+<rect x="380" y="1800" width="650" height="125" rx="16" fill="#fff0d9" stroke="#b67b28" stroke-width="2"/>
+<text x="705.0" y="1841.5" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#243247" text-anchor="middle">AFTER_TOOL + EVIDENCE STORE</text>
+<text x="705.0" y="1871.5" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#243247" text-anchor="middle">Validar y deduplicar; unir procedencias</text>
+<text x="705.0" y="1901.5" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#243247" text-anchor="middle">Guardar candidates.json</text>
+<rect x="380" y="1990" width="650" height="135" rx="16" fill="#eee8fb" stroke="#7151a1" stroke-width="2"/>
+<text x="705.0" y="2037.375" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">VALORACIÓN DE LOS AGENTES</text>
+<text x="705.0" y="2066.125" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">assess_evidence: IDs reales + score + motivo</text>
+<text x="705.0" y="2094.875" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">Alternativa: JSON final público validado</text>
+<rect x="380" y="2200" width="650" height="125" rx="16" fill="#e6f3e9" stroke="#3b8050" stroke-width="2"/>
+<text x="705.0" y="2242.375" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">SELECCIÓN GLOBAL + EXPORTACIÓN</text>
+<text x="705.0" y="2271.125" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">Score ≥ 2 · ordenar · máximo TOP_K</text>
+<text x="705.0" y="2299.875" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">evidence.json + report.md + summary.json</text>
+<rect x="380" y="2380" width="650" height="105" rx="16" fill="#eee8fb" stroke="#7151a1" stroke-width="2"/>
+<text x="705.0" y="2426.75" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">SEGMENTACIÓN oAMF</text>
+<text x="705.0" y="2455.5" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">DSG / TARGER / DSS → spans + nodos L</text>
+<rect x="380" y="2535" width="650" height="105" rx="16" fill="#eee8fb" stroke="#7151a1" stroke-width="2"/>
+<text x="705.0" y="2581.75" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">PROPOSICIONAMIENTO oAMF</text>
+<text x="705.0" y="2610.5" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">SPG / CPJ → claims trazables + nodos I</text>
+<rect x="380" y="2690" width="650" height="115" rx="16" fill="#eee8fb" stroke="#7151a1" stroke-width="2"/>
+<text x="705.0" y="2741.75" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">IDENTIFICACIÓN DE RELACIONES</text>
+<text x="705.0" y="2770.5" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">Alternativas oAMF → RA / CA / MA dirigidas</text>
+<rect x="380" y="2855" width="650" height="120" rx="16" fill="#e6f3e9" stroke="#3b8050" stroke-width="2"/>
+<text x="705.0" y="2895.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">EXPORTACIÓN TRAZABLE</text>
+<text x="705.0" y="2923.25" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">xAIF + provenance_map + manifest</text>
+<text x="705.0" y="2950.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Límite actual: sin razonamiento AF/QBAF</text>
+<polyline points="705.0,400 705.0,435" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="705.0,580 705.0,615" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="580,760 580,830 415,830 415,855" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="840,760 840,830 1055,830 1055,855" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="415.0,1000 415.0,1045" fill="none" stroke="#247f7a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<polyline points="415.0,1160 415.0,1205" fill="none" stroke="#247f7a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<polyline points="415.0,1350 415.0,1405" fill="none" stroke="#668243" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<polyline points="1055.0,1000 1055.0,1045" fill="none" stroke="#247f7a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<polyline points="1055.0,1160 1055.0,1205" fill="none" stroke="#247f7a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<polyline points="1055.0,1350 1055.0,1405" fill="none" stroke="#668243" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<polyline points="415,1535 415,1585 600,1585 600,1605" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1055,1535 1055,1585 825,1585 825,1605" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="705.0,1750 705.0,1790" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="370,1860 100,1860 100,927 150,927" fill="none" stroke="#247f7a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" stroke-dasharray="9 7"/>
+<polyline points="1040,1860 1375,1860 1375,927 1320,927" fill="none" stroke="#247f7a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" stroke-dasharray="9 7"/>
+<text x="1195.0" y="1729.0" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#247f7a" text-anchor="middle">Retorno al agente</text>
+<text x="1195.0" y="1752.75" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#247f7a" text-anchor="middle">por MCP / after_tool</text>
+<text x="1195.0" y="1776.5" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#247f7a" text-anchor="middle">Texto + IDs + presupuesto</text>
+<polyline points="705.0,1935 705.0,1980" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="705.0,2135 705.0,2190" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="705.0,2335 705.0,2370" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="705.0,2495 705.0,2525" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="705.0,2650 705.0,2680" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="705.0,2815 705.0,2845" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1520" y="280" width="700" height="200" rx="16" fill="#eee8fb" stroke="#7151a1" stroke-width="2"/>
+<text x="1870.0" y="331.125" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">MODELO COMPARTIDO</text>
+<text x="1870.0" y="359.875" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">ADK → LiteLLM → PoliGPT / gpt-oss-120b</text>
+<text x="1870.0" y="388.625" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">VPN UPV · OPENAI_BASE_URL + API_KEY</text>
+<text x="1870.0" y="417.375" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">Temperatura 0 · claves en .env</text>
+<text x="1870.0" y="446.125" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">MCP accede a fuentes, no decide qué buscar</text>
+<rect x="1520" y="530" width="700" height="185" rx="16" fill="#e7f0ff" stroke="#3264a5" stroke-width="2"/>
+<text x="1870.0" y="575.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">PRESUPUESTOS POR DEFECTO</text>
+<text x="1870.0" y="603.25" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">24 llamadas LLM globales, incluido coordinador</text>
+<text x="1870.0" y="630.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Por especialista: 4 búsquedas + 2 full-text</text>
+<text x="1870.0" y="658.25" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">5 documentos / búsqueda · TOP_K global = 10</text>
+<text x="1870.0" y="685.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Presupuesto restante visible en cada llamada</text>
+<text x="1540" y="795.0" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#247f7a" text-anchor="start">CICLO DE CADA ESPECIALISTA</text>
+<rect x="1560" y="835" width="620" height="95" rx="16" fill="#eee8fb" stroke="#7151a1" stroke-width="2"/>
+<text x="1870.0" y="876.75" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">LLM: elegir la siguiente acción</text>
+<text x="1870.0" y="905.5" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">Caso + tarea + resultados del ciclo</text>
+<rect x="1560" y="990" width="620" height="110" rx="16" fill="#e0f4f2" stroke="#247f7a" stroke-width="2"/>
+<text x="1870.0" y="1025.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">before_tool: verificar presupuesto</text>
+<text x="1870.0" y="1053.25" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Sin saldo → devolver error recuperable</text>
+<text x="1870.0" y="1080.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Con saldo → invocar herramienta permitida</text>
+<rect x="1560" y="1160" width="620" height="110" rx="16" fill="#eaf3df" stroke="#668243" stroke-width="2"/>
+<text x="1870.0" y="1194.875" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">MCP → FUENTE → MCP</text>
+<text x="1870.0" y="1223.625" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">Buscar o recuperar XML completo</text>
+<text x="1870.0" y="1252.375" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">Guardar respuesta bruta y traza HTTP</text>
+<rect x="1560" y="1330" width="620" height="110" rx="16" fill="#fff0d9" stroke="#b67b28" stroke-width="2"/>
+<text x="1870.0" y="1365.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">after_tool: ingerir y devolver</text>
+<text x="1870.0" y="1393.25" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Una copia del resultado + saldo restante</text>
+<text x="1870.0" y="1420.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">El agente puede reformular o valorar</text>
+<polyline points="1870.0,940 1870.0,980" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1870.0,1110 1870.0,1150" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1870.0,1280 1870.0,1320" fill="none" stroke="#243247" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="2190,1385 2240,1385 2240,882 2190,882" fill="none" stroke="#247f7a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" stroke-dasharray="9 7"/>
+<rect x="1520" y="1510" width="700" height="225" rx="16" fill="#fff0d9" stroke="#b67b28" stroke-width="2"/>
+<text x="1870.0" y="1562.0" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">VALIDACIÓN DE LAS VALORACIONES</text>
+<text x="1870.0" y="1589.5" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">IDs recuperados por el mismo agente</text>
+<text x="1870.0" y="1617.0" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Listas de igual longitud · enteros 0–3</text>
+<text x="1870.0" y="1644.5" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Motivos no vacíos · rechazo del lote inválido</text>
+<text x="1870.0" y="1672.0" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Si no guardó ninguna: validar JSON final público</text>
+<text x="1870.0" y="1699.5" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Nunca generar texto de evidencia desde el LLM</text>
+<rect x="1520" y="1790" width="700" height="190" rx="16" fill="#f2f4f7" stroke="#728096" stroke-width="2"/>
+<text x="1870.0" y="1838.25" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">TRAZAS CONSERVADAS</text>
+<text x="1870.0" y="1865.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">plan.json · candidates.json · events.jsonl</text>
+<text x="1870.0" y="1893.25" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">tools.jsonl · models.jsonl · agents/*/raw/</text>
+<text x="1870.0" y="1920.75" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">HTTP, errores y reparaciones cuando ocurren</text>
+<text x="1870.0" y="1948.25" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">provenance une todas las rutas de recuperación</text>
+<rect x="1520" y="2035" width="700" height="155" rx="16" fill="#e6f3e9" stroke="#3b8050" stroke-width="2"/>
+<text x="1870.0" y="2079.5" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">ESTADO GLOBAL / CÓDIGO CLI</text>
+<text x="1870.0" y="2107.0" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">completed / 0: sin incidencias registradas</text>
+<text x="1870.0" y="2134.5" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">partial / 2: incidencias o candidatos tras fallo</text>
+<text x="1870.0" y="2162.0" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">failed / 2: fallo general sin candidatos</text>
+<rect x="1520" y="2240" width="700" height="125" rx="16" fill="#fff0d9" stroke="#b67b28" stroke-width="2"/>
+<text x="1870.0" y="2282.375" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">EVIDENCE ITEM</text>
+<text x="1870.0" y="2311.125" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">Fragmento original + documento + fuente</text>
+<text x="1870.0" y="2339.875" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#243247" text-anchor="middle">provenance[] + assessments[] separados</text>
+<rect x="1520" y="2420" width="700" height="260" rx="16" fill="#eee8fb" stroke="#7151a1" stroke-width="2"/>
+<text x="1870.0" y="2489.5" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">EXPERIMENTOS oAMF POR ETAPAS</text>
+<text x="1870.0" y="2517.0" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">segment / propositions / relations / export</text>
+<text x="1870.0" y="2544.5" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Entradas gold o predichas por etapa</text>
+<text x="1870.0" y="2572.0" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Sin cuadrícula cartesiana automática</text>
+<text x="1870.0" y="2599.5" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">Endpoint, módulo, modelo, versión y config</text>
+<text x="1870.0" y="2627.0" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">en manifest.json y en cada objeto derivado</text>
+<rect x="1520" y="2735" width="700" height="240" rx="16" fill="#fff0d9" stroke="#b67b28" stroke-width="2"/>
+<text x="1870.0" y="2794.5" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">TRAZABILIDAD DE ARGUMENTOS</text>
+<text x="1870.0" y="2822.0" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">claim_id → span_id → evidence_id</text>
+<text x="1870.0" y="2849.5" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">offsets exactos → passage_text original</text>
+<text x="1870.0" y="2877.0" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">documento + retrieval provenance</text>
+<text x="1870.0" y="2904.5" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">inputs y respuestas oAMF originales conservados</text>
+<text x="1870.0" y="2932.0" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#243247" text-anchor="middle">candidate_pairs + claims + relations + xAIF</text>
+<text x="65" y="3168.0" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#526175" text-anchor="start">LECTURA  → flujo / llamada    ↔ petición y respuesta    - - → retorno de datos</text>
+<text x="65" y="3223.0" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#526175" text-anchor="start">Salida actual: grafo xAIF trazable. No decide la respuesta clínica ni ejecuta razonamiento AF/QBAF.</text>
+</svg>

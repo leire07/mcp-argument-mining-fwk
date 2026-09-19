@@ -1,0 +1,35 @@
+benchmark_id: abstrct_dev_neoplasm_oamf_v1
+registry: configs/oamf_public_modules.yaml
+random_seed: 42
+
+dataset:
+  name: AbstRCT
+  version: f856f1ca7514caa4094194b5623e84c159d9bf1d
+  split: dev/neoplasm_dev
+  evaluation_reference: gold
+  evidence: data/processed/abstrct/dev_neoplasm/evidence.json
+  gold_spans: data/processed/abstrct/dev_neoplasm/gold_spans.json
+  argument_units: data/processed/abstrct/dev_neoplasm/argument_units.json
+  gold_relations: data/processed/abstrct/dev_neoplasm/gold_relations.json
+  unmapped_relations: data/processed/abstrct/dev_neoplasm/unmapped_relations.json
+
+# Cada etapa se ejecuta de forma independiente; no se combinan pipelines.
+segmentation_candidates: [DSG, TARGER]
+relation_candidates: [SARIM, ARIR, TARGER-AM, DTERG]
+propositionalisation_candidates: [SPG, CPJ]
+
+# Sólo se evalúan etiquetas cuya semántica se declara. MA/rephrase y
+# Partial-Attack quedan fuera de la tarea binaria Support/Attack.
+relation_semantics:
+  SARIM:
+    xaif_to_benchmark: {RA: support, CA: attack}
+    justification: "El contrato oficial del módulo emite nodos xAIF RA/CA con semántica support/attack."
+  ARIR:
+    xaif_to_benchmark: {RA: support, CA: attack}
+    justification: "El contrato oficial del módulo emite nodos xAIF RA/CA con semántica support/attack."
+  TARGER-AM:
+    xaif_to_benchmark: {RA: support, CA: attack}
+    justification: "El contrato oficial del módulo emite nodos xAIF RA/CA con semántica support/attack."
+  DTERG:
+    xaif_to_benchmark: {RA: support}
+    justification: "El entailment positivo se representa como RA/support; no se fuerza contradiction a Attack."

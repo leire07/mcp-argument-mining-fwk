@@ -1,0 +1,29 @@
+# Ejemplo reproducible para endpoints desplegados desde repositorios oficiales.
+# El registro fija repositorio, commit, ruta y modelo. Cambia sólo `endpoint`
+# si los contenedores viven en un servidor en vez de localhost.
+experiment_id: repo_dsg_spg_arir_candidate_001
+dataset_version: casimedicos_retrieval_v1
+gold_version: null
+random_seed: 42
+segmentation:
+  module: DSG
+  backend_type: repo
+  backend_id: official_repo_local
+  endpoint: null
+  config: {}
+propositionalisation:
+  module: SPG
+  backend_type: repo
+  backend_id: official_repo_local
+  endpoint: null
+  config: {}
+relation_identification:
+  module: ARIR
+  backend_type: repo
+  backend_id: official_repo_local
+  endpoint: null
+  config: {}
+pair_generation:
+  strategy: within_passage
+  thresholds: {}
+  version: "1"

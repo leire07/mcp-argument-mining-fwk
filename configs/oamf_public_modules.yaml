@@ -1,0 +1,160 @@
+schema_version: "1.1"
+# Estado comprobado mediante GET y, cuando se indica como operativo, mediante
+# ejecuciones POST del pipeline. Es una observación temporal, no una garantía.
+modules:
+  - module_id: DSG
+    stage: segmentation
+    backend_type: ws
+    backend_id: argtech_public
+    endpoint: http://default-segmenter.amfws.arg.tech/segmenter-01
+    route: segmenter-01
+    endpoint_status: operational
+    endpoint_checked_at: "2026-09-10"
+    version: public-service-unreported
+    model: null
+    repository: https://github.com/arg-tech/default_segmenter
+    repository_commit: fd9d9657f4820d7c6bb20a7697a61017b454e627
+    config: {}
+  - module_id: TARGER
+    stage: segmentation
+    backend_type: ws
+    backend_id: argtech_public
+    endpoint: http://targer.amfws.arg.tech/targer-segmenter
+    route: targer-segmenter
+    endpoint_status: operational
+    endpoint_checked_at: "2026-09-10"
+    version: public-service-unreported
+    model: null
+    repository: https://github.com/arg-tech/targer
+    repository_commit: c7a75a99e488e3afe459e522ad77ce56752d1503
+    config: {}
+  - module_id: DSS
+    stage: segmentation
+    backend_type: ws
+    backend_id: argtech_public
+    endpoint: http://amf-llm.amfws.arg.tech/segmenter
+    route: segmenter
+    endpoint_status: unavailable
+    endpoint_checked_at: "2026-09-10"
+    version: public-service-unreported
+    model: null
+    repository: https://github.com/arg-tech/oamf_llm
+    repository_commit: dcdb753ff907c403a6c79b28387c9b3ff0a09e59
+    config: {}
+  - module_id: SPG
+    stage: propositionalisation
+    backend_type: ws
+    backend_id: argtech_public
+    endpoint: http://default-proposition-unitiser.amfws.arg.tech/propositionUnitizer-01
+    route: propositionUnitizer-01
+    endpoint_status: operational
+    endpoint_checked_at: "2026-09-10"
+    version: public-service-unreported
+    model: null
+    repository: https://github.com/arg-tech/proposition-unitizer
+    repository_commit: ff12ab1041ab98a49e50c11e9230a28b5a5efbe4
+    config: {}
+  - module_id: CPJ
+    stage: propositionalisation
+    backend_type: ws
+    backend_id: argtech_public
+    endpoint: http://cascading-propositionunitiser.amfws.arg.tech/propositionaliser-cascading
+    route: propositionaliser-cascading
+    endpoint_status: unavailable
+    endpoint_checked_at: "2026-09-10"
+    version: public-service-unreported
+    model: null
+    repository: https://github.com/arg-tech/cascading_propositionaliser
+    repository_commit: null
+    config: {}
+  - module_id: DAMG
+    stage: relation_identification
+    backend_type: ws
+    backend_id: argtech_public
+    endpoint: http://dam.amfws.arg.tech/dam-03
+    route: dam-03
+    endpoint_status: unavailable
+    endpoint_checked_at: "2026-09-10"
+    version: public-service-unreported
+    model: null
+    repository: https://github.com/arg-tech/dam
+    repository_commit: null
+    config: {}
+  - module_id: SARIM
+    stage: relation_identification
+    backend_type: ws
+    backend_id: argtech_public
+    endpoint: http://amfws-rp.arg.tech/somaye
+    route: somaye
+    endpoint_status: operational
+    endpoint_checked_at: "2026-09-10"
+    version: public-service-unreported
+    model: null
+    repository: https://github.com/arg-tech/AMF-RP
+    repository_commit: 2582534f512c02a5497d924ea142d9b81e9460e4
+    config: {}
+  - module_id: ARIR
+    stage: relation_identification
+    backend_type: ws
+    backend_id: argtech_public_replacement
+    endpoint: http://amf-ari.amfws.arg.tech/
+    route: ""
+    endpoint_status: operational
+    endpoint_checked_at: "2026-09-10"
+    version: public-service-unreported
+    model: null
+    repository: https://github.com/arg-tech/AMF_ARI
+    repository_commit: 68a9868a06a469c742f577a09c08ad54a6adda88
+    config: {}
+  - module_id: DRIG
+    stage: relation_identification
+    backend_type: ws
+    backend_id: argtech_public
+    endpoint: http://vanilla-dialogpt-am.amfws.arg.tech/caasra
+    route: caasra
+    endpoint_status: unavailable
+    endpoint_checked_at: "2026-09-10"
+    version: public-service-unreported
+    model: null
+    repository: https://github.com/arg-tech/dialogpt-am-vanila
+    repository_commit: 42a1a99cc2d23bdc7830e7107ea3b6ef606f3c05
+    config: {}
+  - module_id: TARGER-AM
+    stage: relation_identification
+    backend_type: ws
+    backend_id: argtech_public
+    endpoint: http://targer.amfws.arg.tech/targer-am
+    route: targer-am
+    endpoint_status: operational
+    endpoint_checked_at: "2026-09-10"
+    version: public-service-unreported
+    model: null
+    repository: https://github.com/arg-tech/targer
+    repository_commit: c7a75a99e488e3afe459e522ad77ce56752d1503
+    config: {}
+  - module_id: DSRM
+    stage: relation_identification
+    backend_type: ws
+    backend_id: argtech_public
+    endpoint: http://amf-llm.amfws.arg.tech/relation_identifier
+    route: relation_identifier
+    endpoint_status: unavailable
+    endpoint_checked_at: "2026-09-10"
+    version: public-service-unreported
+    model: null
+    repository: https://github.com/arg-tech/oamf_llm
+    repository_commit: dcdb753ff907c403a6c79b28387c9b3ff0a09e59
+    config: {}
+  - module_id: DTERG
+    stage: relation_identification
+    backend_type: ws
+    backend_id: argtech_public
+    endpoint: http://bert-te.amfws.arg.tech/bert-te
+    route: bert-te
+    endpoint_status: operational
+    endpoint_checked_at: "2026-09-10"
+    version: public-service-unreported
+    model: null
+    repository: https://github.com/arg-tech/bert-te
+    repository_commit: 553c1c1be7ac061e4916f533d46ce4d7bff18552
+    config: {}

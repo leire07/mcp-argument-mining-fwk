@@ -1,0 +1,232 @@
+{
+  "$defs": {
+    "ArgumentRelation": {
+      "additionalProperties": false,
+      "properties": {
+        "relation_id": {
+          "title": "Relation Id",
+          "type": "string"
+        },
+        "source_claim_id": {
+          "title": "Source Claim Id",
+          "type": "string"
+        },
+        "target_claim_id": {
+          "title": "Target Claim Id",
+          "type": "string"
+        },
+        "relation": {
+          "enum": [
+            "support",
+            "attack",
+            "rephrase",
+            "none"
+          ],
+          "title": "Relation",
+          "type": "string"
+        },
+        "xaif_relation_type": {
+          "anyOf": [
+            {
+              "enum": [
+                "RA",
+                "CA",
+                "MA"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Xaif Relation Type"
+        },
+        "input_kind": {
+          "default": "predicted",
+          "enum": [
+            "gold",
+            "predicted"
+          ],
+          "title": "Input Kind",
+          "type": "string"
+        },
+        "generated_by": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ModuleRun"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        }
+      },
+      "required": [
+        "relation_id",
+        "source_claim_id",
+        "target_claim_id",
+        "relation",
+        "xaif_relation_type"
+      ],
+      "title": "ArgumentRelation",
+      "type": "object"
+    },
+    "ModuleRun": {
+      "additionalProperties": false,
+      "properties": {
+        "experiment_id": {
+          "title": "Experiment Id",
+          "type": "string"
+        },
+        "stage": {
+          "title": "Stage",
+          "type": "string"
+        },
+        "module_id": {
+          "title": "Module Id",
+          "type": "string"
+        },
+        "module_version": {
+          "title": "Module Version",
+          "type": "string"
+        },
+        "model": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Model"
+        },
+        "model_revision": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model Revision"
+        },
+        "endpoint": {
+          "title": "Endpoint",
+          "type": "string"
+        },
+        "backend_type": {
+          "default": "ws",
+          "enum": [
+            "ws",
+            "repo"
+          ],
+          "title": "Backend Type",
+          "type": "string"
+        },
+        "backend_id": {
+          "default": "public_ws",
+          "title": "Backend Id",
+          "type": "string"
+        },
+        "route": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Route"
+        },
+        "repository": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Repository"
+        },
+        "repository_commit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Repository Commit"
+        },
+        "config": {
+          "additionalProperties": true,
+          "title": "Config",
+          "type": "object"
+        },
+        "input_sha256": {
+          "title": "Input Sha256",
+          "type": "string"
+        },
+        "response_sha256": {
+          "title": "Response Sha256",
+          "type": "string"
+        },
+        "started_at": {
+          "title": "Started At",
+          "type": "string"
+        },
+        "completed_at": {
+          "title": "Completed At",
+          "type": "string"
+        },
+        "attempts": {
+          "default": 1,
+          "minimum": 1,
+          "title": "Attempts",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "experiment_id",
+        "stage",
+        "module_id",
+        "module_version",
+        "model",
+        "endpoint",
+        "config",
+        "input_sha256",
+        "response_sha256",
+        "started_at",
+        "completed_at"
+      ],
+      "title": "ModuleRun",
+      "type": "object"
+    }
+  },
+  "items": {
+    "$ref": "#/$defs/ArgumentRelation"
+  },
+  "type": "array"
+}

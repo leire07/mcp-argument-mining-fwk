@@ -1,0 +1,39 @@
+{
+  "experiment_id": "abstrct_adapter_dev_neoplasm_dev",
+  "run_kind": "dataset_adapter",
+  "evaluation_reference": "gold",
+  "dataset_name": "AbstRCT",
+  "dataset_version": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+  "dataset_split": "dev",
+  "dataset_subset": "neoplasm_dev",
+  "repository": "https://gitlab.com/tomaye/abstrct",
+  "repository_commit": "f856f1ca7514caa4094194b5623e84c159d9bf1d",
+  "copy_raw": true,
+  "max_documents": null,
+  "counts": {
+    "evidence": 50,
+    "spans": 326,
+    "argument_units": 326,
+    "relations": 194,
+    "unmapped_relations": 25,
+    "components_by_type": {
+      "claim": 99,
+      "premise": 218,
+      "major_claim": 9
+    },
+    "relations_by_label": {
+      "support": 186,
+      "attack": 8
+    }
+  },
+  "outputs": {
+    "evidence": "evidence.json",
+    "gold_spans": "gold_spans.json",
+    "argument_units": "argument_units.json",
+    "gold_relations": "gold_relations.json",
+    "unmapped_relations": "unmapped_relations.json",
+    "mapping": "mapping.json",
+    "raw_input_manifest": "raw_input_manifest.json",
+    "raw": "raw/"
+  }
+}

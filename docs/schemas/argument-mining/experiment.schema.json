@@ -1,0 +1,211 @@
+{
+  "$defs": {
+    "PairGeneration": {
+      "additionalProperties": false,
+      "properties": {
+        "strategy": {
+          "default": "within_passage",
+          "enum": [
+            "within_passage",
+            "within_document",
+            "all"
+          ],
+          "title": "Strategy",
+          "type": "string"
+        },
+        "thresholds": {
+          "additionalProperties": true,
+          "title": "Thresholds",
+          "type": "object"
+        },
+        "version": {
+          "default": "1",
+          "title": "Version",
+          "type": "string"
+        }
+      },
+      "title": "PairGeneration",
+      "type": "object"
+    },
+    "StageSelection": {
+      "additionalProperties": false,
+      "properties": {
+        "module": {
+          "title": "Module",
+          "type": "string"
+        },
+        "endpoint": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Endpoint"
+        },
+        "backend_type": {
+          "anyOf": [
+            {
+              "enum": [
+                "ws",
+                "repo"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Backend Type"
+        },
+        "backend_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Backend Id"
+        },
+        "route": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Route"
+        },
+        "repository": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Repository"
+        },
+        "repository_commit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Repository Commit"
+        },
+        "version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Version"
+        },
+        "model": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model"
+        },
+        "model_revision": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model Revision"
+        },
+        "config": {
+          "additionalProperties": true,
+          "title": "Config",
+          "type": "object"
+        }
+      },
+      "required": [
+        "module"
+      ],
+      "title": "StageSelection",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "experiment_id": {
+      "title": "Experiment Id",
+      "type": "string"
+    },
+    "dataset_version": {
+      "default": "unreported",
+      "title": "Dataset Version",
+      "type": "string"
+    },
+    "gold_version": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Gold Version"
+    },
+    "random_seed": {
+      "default": 42,
+      "title": "Random Seed",
+      "type": "integer"
+    },
+    "segmentation": {
+      "$ref": "#/$defs/StageSelection"
+    },
+    "propositionalisation": {
+      "$ref": "#/$defs/StageSelection"
+    },
+    "relation_identification": {
+      "$ref": "#/$defs/StageSelection"
+    },
+    "pair_generation": {
+      "$ref": "#/$defs/PairGeneration"
+    }
+  },
+  "required": [
+    "experiment_id",
+    "segmentation",
+    "propositionalisation",
+    "relation_identification"
+  ],
+  "title": "EndToEndConfig",
+  "type": "object"
+}

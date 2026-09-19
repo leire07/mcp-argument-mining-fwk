@@ -1,0 +1,56 @@
+{
+  "$defs": {
+    "EvidenceRecord": {
+      "additionalProperties": true,
+      "description": "Validated view that preserves every upstream field.",
+      "properties": {
+        "evidence_id": {
+          "minLength": 1,
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "passage_text": {
+          "minLength": 1,
+          "title": "Passage Text",
+          "type": "string"
+        },
+        "document_id": {
+          "default": "",
+          "title": "Document Id",
+          "type": "string"
+        },
+        "title": {
+          "default": "",
+          "title": "Title",
+          "type": "string"
+        },
+        "provenance": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "assessments": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Assessments",
+          "type": "array"
+        }
+      },
+      "required": [
+        "evidence_id",
+        "passage_text"
+      ],
+      "title": "EvidenceRecord",
+      "type": "object"
+    }
+  },
+  "items": {
+    "$ref": "#/$defs/EvidenceRecord"
+  },
+  "type": "array"
+}

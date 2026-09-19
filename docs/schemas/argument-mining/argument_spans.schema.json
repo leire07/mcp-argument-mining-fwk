@@ -1,0 +1,223 @@
+{
+  "$defs": {
+    "ArgumentSpan": {
+      "additionalProperties": false,
+      "properties": {
+        "span_id": {
+          "title": "Span Id",
+          "type": "string"
+        },
+        "evidence_id": {
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "source_span": {
+          "$ref": "#/$defs/SourceSpan"
+        },
+        "l_node_id": {
+          "title": "L Node Id",
+          "type": "string"
+        },
+        "input_kind": {
+          "default": "predicted",
+          "enum": [
+            "gold",
+            "predicted"
+          ],
+          "title": "Input Kind",
+          "type": "string"
+        },
+        "generated_by": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ModuleRun"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "span_id",
+        "evidence_id",
+        "source_span",
+        "l_node_id"
+      ],
+      "title": "ArgumentSpan",
+      "type": "object"
+    },
+    "ModuleRun": {
+      "additionalProperties": false,
+      "properties": {
+        "experiment_id": {
+          "title": "Experiment Id",
+          "type": "string"
+        },
+        "stage": {
+          "title": "Stage",
+          "type": "string"
+        },
+        "module_id": {
+          "title": "Module Id",
+          "type": "string"
+        },
+        "module_version": {
+          "title": "Module Version",
+          "type": "string"
+        },
+        "model": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Model"
+        },
+        "model_revision": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model Revision"
+        },
+        "endpoint": {
+          "title": "Endpoint",
+          "type": "string"
+        },
+        "backend_type": {
+          "default": "ws",
+          "enum": [
+            "ws",
+            "repo"
+          ],
+          "title": "Backend Type",
+          "type": "string"
+        },
+        "backend_id": {
+          "default": "public_ws",
+          "title": "Backend Id",
+          "type": "string"
+        },
+        "route": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Route"
+        },
+        "repository": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Repository"
+        },
+        "repository_commit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Repository Commit"
+        },
+        "config": {
+          "additionalProperties": true,
+          "title": "Config",
+          "type": "object"
+        },
+        "input_sha256": {
+          "title": "Input Sha256",
+          "type": "string"
+        },
+        "response_sha256": {
+          "title": "Response Sha256",
+          "type": "string"
+        },
+        "started_at": {
+          "title": "Started At",
+          "type": "string"
+        },
+        "completed_at": {
+          "title": "Completed At",
+          "type": "string"
+        },
+        "attempts": {
+          "default": 1,
+          "minimum": 1,
+          "title": "Attempts",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "experiment_id",
+        "stage",
+        "module_id",
+        "module_version",
+        "model",
+        "endpoint",
+        "config",
+        "input_sha256",
+        "response_sha256",
+        "started_at",
+        "completed_at"
+      ],
+      "title": "ModuleRun",
+      "type": "object"
+    },
+    "SourceSpan": {
+      "additionalProperties": false,
+      "properties": {
+        "start_char": {
+          "minimum": 0,
+          "title": "Start Char",
+          "type": "integer"
+        },
+        "end_char": {
+          "exclusiveMinimum": 0,
+          "title": "End Char",
+          "type": "integer"
+        },
+        "text": {
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_char",
+        "end_char",
+        "text"
+      ],
+      "title": "SourceSpan",
+      "type": "object"
+    }
+  },
+  "items": {
+    "$ref": "#/$defs/ArgumentSpan"
+  },
+  "type": "array"
+}

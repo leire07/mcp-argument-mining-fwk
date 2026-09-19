@@ -1,0 +1,20 @@
+schema_version: "1.0"
+status: not_frozen
+selected_at: null
+selection_report: null
+dataset_used_for_selection: AbstRCT
+application_data_used_for_tuning: false
+random_seed: 42
+
+# Debe completarse manualmente tras revisar métricas, disponibilidad,
+# reproducibilidad, recursos, fallos y preservación de procedencia.
+segmentation: null
+propositionalisation: null
+relation_identification: null
+
+freeze_requirements:
+  - record module_id, backend, endpoint and route
+  - record official repository and exact commit
+  - record model and exact model revision or digest
+  - record configuration and container identity
+  - cite the multi-criteria selection report
