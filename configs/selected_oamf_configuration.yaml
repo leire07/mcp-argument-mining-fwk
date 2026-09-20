@@ -1,20 +1,62 @@
 schema_version: "1.0"
-status: not_frozen
-selected_at: null
-selection_report: null
-dataset_used_for_selection: AbstRCT
+status: frozen
+selected_at: "2026-09-20T12:42:13+02:00"
+selection_report: outputs/argument_mining_experiment/abstrct_dev_summary_20260919/report.md
+dataset_used_for_selection: AbstRCT dev/neoplasm_dev (50 documents)
 application_data_used_for_tuning: false
 random_seed: 42
 
-# Debe completarse manualmente tras revisar métricas, disponibilidad,
-# reproducibilidad, recursos, fallos y preservación de procedencia.
-segmentation: null
-propositionalisation: null
-relation_identification: null
+selection_rationale:
+  segmentation: "DSG is the frozen segmentation candidate justified by the auxiliary AbstRCT benchmark and its lightweight, traceable official implementation."
+  propositionalisation: "SPG is a structural, xAIF-compatible baseline; no normalised human gold propositions were available, so it is not claimed empirically best."
+  relation_identification: "SARIM is a provisional baseline: it had the highest evaluated Support/Attack macro-F1 (0.1740), but Support precision was low (0.1660) and Attack performance was insufficient (F1 0.0690; 1/8 correct). It is not claimed optimal."
+limitations:
+  - "AbstRCT is an auxiliary benchmark used only to justify a reproducible application configuration."
+  - "The public ARG-tech endpoints are suitable for this pilot but do not provide immutable service or model digests. Official repositories are pinned for provenance."
+  - "No CasiMedicos-Arg application case, annotation, or silver label was used for module tuning."
+
+segmentation:
+  module: DSG
+  endpoint: http://default-segmenter.amfws.arg.tech/segmenter-01
+  backend_type: ws
+  backend_id: argtech_public
+  route: segmenter-01
+  repository: https://github.com/arg-tech/default_segmenter
+  repository_commit: fd9d9657f4820d7c6bb20a7697a61017b454e627
+  version: public-service-unreported
+  model: spacy/en_core_web_sm@3.7.1
+  model_revision: null
+  config: {}
+
+propositionalisation:
+  module: SPG
+  endpoint: http://default-proposition-unitiser.amfws.arg.tech/propositionUnitizer-01
+  backend_type: ws
+  backend_id: argtech_public
+  route: propositionUnitizer-01
+  repository: https://github.com/arg-tech/proposition-unitizer
+  repository_commit: ff12ab1041ab98a49e50c11e9230a28b5a5efbe4
+  version: public-service-unreported
+  model: null
+  model_revision: null
+  config: {}
+
+relation_identification:
+  module: SARIM
+  endpoint: http://amfws-rp.arg.tech/somaye
+  backend_type: ws
+  backend_id: argtech_public
+  route: somaye
+  repository: https://github.com/arg-tech/AMF-RP
+  repository_commit: 2582534f512c02a5497d924ea142d9b81e9460e4
+  version: public-service-unreported
+  model: app/svm_pipeline.joblib
+  model_revision: null
+  config: {}
 
 freeze_requirements:
-  - record module_id, backend, endpoint and route
-  - record official repository and exact commit
-  - record model and exact model revision or digest
-  - record configuration and container identity
-  - cite the multi-criteria selection report
+  - "recorded module_id, backend, endpoint and route"
+  - "recorded official repository and exact commit"
+  - "recorded model; public services expose no immutable model digest"
+  - "recorded empty module configuration; public service container identity is unreported"
+  - "cited the auxiliary AbstRCT benchmark report"

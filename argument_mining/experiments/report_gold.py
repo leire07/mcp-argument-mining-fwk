@@ -31,6 +31,29 @@ def summarise(segmentation: Path, relations: Path, output: Path, overwrite: bool
     pairs = read(relations / 'candidate_pairs.json')
     gold_distribution = Counter(r['relation'] for r in gold_relations)
     no_relation_accuracy = (len(pairs) - len(gold_relations)) / len(pairs)
+    provisional_reading = {
+        'segmentation': {
+            'candidate': 'DSG',
+            'status': 'provisional_development_candidate',
+            'reason': 'Higher exact-span F1 and lower observed latency; TARGER is higher only on relaxed overlap F1.',
+        },
+        'propositionalisation': {
+            'candidate': 'SPG',
+            'status': 'structural_baseline_only',
+            'reason': 'Operational and traceable; no compatible human-normalised gold exists for an empirical ranking.',
+        },
+        'relation_identification': {
+            'candidate': 'SARIM',
+            'status': 'provisional_baseline_not_ready_to_freeze',
+            'reason': 'Highest Support/Attack macro-F1, but very low precision and only one correct Attack prediction.',
+        },
+        'configuration_frozen': False,
+        'required_before_freezing': [
+            'Repeat shortlisted modules from pinned official deployments.',
+            'Resolve the relation-stage suitability and sparse Attack reference limitation.',
+            'Evaluate the frozen choice once on a held-out AbstRCT test split.',
+        ],
+    }
     lines = [
         '# Benchmark exploratorio oAMF sobre AbstRCT', '',
         f'{evidence_count} documentos de desarrollo (`dev/neoplasm_dev`); {gold_span_count} componentes humanos. '
@@ -128,6 +151,12 @@ def summarise(segmentation: Path, relations: Path, output: Path, overwrite: bool
               '- DSS, CPJ, DAMG, DRIG y DSRM no se incluyeron como operativos en la configuración de partida. Su indisponibilidad no es una puntuación de calidad.',
               '- SPG conserva el papel de baseline estructural. No existe gold normalizado compatible para compararlo cuantitativamente.',
               '- No se ha modificado selected_oamf_configuration.yaml ni usado CasiMedicos para ajustar módulos.', '']
+    lines += ['## Lectura provisional', '',
+              '- **Segmentación:** DSG es el candidato provisional: duplica aproximadamente el F1 exacto de TARGER y fue unas 4,4 veces más rápido. TARGER sólo queda por delante con el criterio relajado de cualquier solapamiento.',
+              '- **Proposicionamiento:** SPG se mantiene como baseline estructural reproducible. No se puede declarar empíricamente superior sin proposiciones normalizadas humanas.',
+              '- **Relaciones:** SARIM logra el mayor macro-F1 Support/Attack, pero predice demasiados apoyos falsos y sólo acierta 1 de 8 ataques. Sirve como baseline provisional; estos resultados no justifican todavía congelarlo como solución final.',
+              '- **Próximo control:** repetir los candidatos preseleccionados desde despliegues oficiales fijados y usar una sola vez un split de test retenido después de cerrar la decisión.', '',
+              'La configuración continúa deliberadamente en `status: not_frozen`.', '']
     (output / 'report.md').write_text('\n'.join(lines), encoding='utf-8')
     for source in (segmentation / 'segmentation_benchmark.csv', relations / 'relation_benchmark.csv'):
         shutil.copyfile(source, output / source.name)
@@ -141,8 +170,13 @@ def summarise(segmentation: Path, relations: Path, output: Path, overwrite: bool
         'evaluation_reference': 'gold', 'modules': details,
         'no_relation_baseline': {'directed_edge_accuracy': no_relation_accuracy,
                                  'support_attack_macro_f1': 0.0},
+        'provisional_reading': provisional_reading,
         'selected_configuration': None,
     })
+    selection_path = output / 'selection_report.json'
+    selection_report = read(selection_path)
+    selection_report['provisional_reading'] = provisional_reading
+    write_json(selection_path, selection_report)
     write_json(output / 'response_audit.json', response_audits)
     print(output / 'report.md')
 

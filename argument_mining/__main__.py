@@ -100,6 +100,15 @@ def parser() -> argparse.ArgumentParser:
     frozen_run.add_argument("--experiment-id", required=True)
     frozen_run.add_argument("--dataset-version", default="unreported")
     frozen_run.add_argument("--output", type=Path, required=True)
+    package_pilot = commands.add_parser(
+        "package-casimedicos-pilot",
+        help="Empaqueta y audita un único piloto ejecutado con evidencia de retrieval congelada",
+    )
+    package_pilot.add_argument("--case", type=Path, required=True)
+    package_pilot.add_argument("--retrieval-run", type=Path, required=True)
+    package_pilot.add_argument("--pilot-run", type=Path, required=True)
+    package_pilot.add_argument("--frozen-config", type=Path, required=True)
+    package_pilot.add_argument("--report", type=Path, required=True)
 
     export = commands.add_parser("export", help="Claims + relaciones -> xAIF trazable, sin inferencia")
     add_common(export)
@@ -178,6 +187,14 @@ def parser() -> argparse.ArgumentParser:
 
 def main():
     args = parser().parse_args()
+    if args.command == "package-casimedicos-pilot":
+        from .experiments.casimedicos_pilot import build_pilot_report
+        metrics = build_pilot_report(
+            case_file=args.case, retrieval_run=args.retrieval_run, pilot_run=args.pilot_run,
+            frozen_config=args.frozen_config, root_report=args.report,
+        )
+        print(f"Piloto empaquetado: {metrics['case_id']}. Informe: {args.report.resolve()}")
+        return
     if args.command == "list-modules":
         registry = ModuleRegistry(args.registry)
         for stage in ("segmentation", "propositionalisation", "relation_identification"):

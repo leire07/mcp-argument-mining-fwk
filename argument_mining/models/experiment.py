@@ -41,6 +41,8 @@ class FrozenOAMFConfiguration(StrictModel):
     dataset_used_for_selection: str
     application_data_used_for_tuning: bool = False
     random_seed: int = 42
+    selection_rationale: dict[str, str] = Field(default_factory=dict)
+    limitations: list[str] = Field(default_factory=list)
     segmentation: StageSelection | None = None
     propositionalisation: StageSelection | None = None
     relation_identification: StageSelection | None = None

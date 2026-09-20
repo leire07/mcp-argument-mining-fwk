@@ -249,9 +249,15 @@ def test_abstrct_adapter_preserves_brat_ids_without_fabricating_gold_claims(tmp_
     assert mapping["normalised_gold_claims_created"] is False
 
 
-def test_unfrozen_configuration_cannot_run():
+def test_unfrozen_configuration_cannot_run(tmp_path):
+    config = tmp_path / "not_frozen.yaml"
+    config.write_text(
+        "schema_version: '1.0'\nstatus: not_frozen\n"
+        "dataset_used_for_selection: test\napplication_data_used_for_tuning: false\n",
+        encoding="utf-8",
+    )
     with pytest.raises(SerializationError, match="status=not_frozen"):
-        load_frozen_config(Path("configs/selected_oamf_configuration.yaml"))
+        load_frozen_config(config)
 
 
 def test_gold_benchmark_portable_artifacts_and_excluded_partial_attack(tmp_path):
